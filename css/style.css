@@ -1,0 +1,266 @@
+  
+   .header{
+    background-color: black;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-bottom: 3px solid red;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    
+   }
+
+            
+   .right{
+    padding-right: 30px;
+   }                  
+   .right ul {
+    display: inline-flex;
+    list-style: none;
+   }
+   .right ul li{
+    padding: 15px;
+   }
+   .high{
+    font-size: 70px;
+    color: orangered;
+   }
+   body{
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    
+    padding-top: 6%;
+
+   }
+   .container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+   }
+   #showcase{
+    background: url(../img/background.jpg) no-repeat;
+    text-align: center;
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+   }
+   #showcase h1{
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 15px;
+
+   }
+   #showcase p{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 100px;
+   }
+   .butt{
+    background-color: orangered;
+    padding-top: 13px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+   }
+   #newsletter input{
+    font-weight: bolder;
+    padding: 15px;
+    width: 250px;
+   }
+   #newsletter{
+    background: darkslateblue;
+    padding: 40px;
+    color: white;
+
+   }
+   #newsletter h1{
+    float: left;
+    font-size: 40px;
+
+   }
+   #newsletter form{
+    float: right;
+    margin-top: 15px;
+   }
+   .one{
+      width: 470px;
+   }
+   #plus{
+   
+      margin-top: 50px;
+
+   }
+   #plus .box{
+      float: left;
+      text-align: center;
+      padding: 20px;
+      width: 30%;
+      
+   }
+   .on{
+      width: 340px;
+   }
+   #plus .box h1{
+      font-size: 50px;
+      font-weight: bold;
+   }
+   #plus .box p{
+      font-size: 30px;
+      font-weight: bolder;
+
+   }
+   footer{
+      text-align: center;
+      font-size: 30px;
+      background: orangered;
+      padding: 20px;
+      color: wheat;
+      font-weight: bolder;
+
+   }
+   .dark{
+      background-color: black;
+      color: white;
+      font-size: 40px;
+      padding: 40px;
+      
+      line-height: normal;
+   
+      text-align: justify;
+   
+   }
+   .undark{
+      text-align: justify;
+      font-size: 40px;
+      border: 1px solid #cccccc;
+      background: #e6e6e6e6;
+      padding: 30px;
+   }
+   #col{
+      float: left;
+      width: 60%;
+      margin-top: 15px;
+   }
+   #col h1{
+      font-size: 60px;
+      text-transform: uppercase;
+      font-weight: bold;
+   }
+   #col h1:hover{
+      color: orange;
+   }
+   #man{
+      background-color: black;
+      float: right;
+      margin-left: 14px;
+      color: white;
+      font-size: 25px;
+      width: 35%;
+      margin-top: 50px;
+      padding: 30px;
+      
+   }
+   #airtel{
+      background-color: black;
+      color: white;
+      padding: 20px;
+      width: 30%;
+      float: right;
+      margin-top: 20px;
+   }
+    aside#airtel input{
+      width: 400px;
+      padding: 20px;
+      font-size: 40px;
+      font-weight: 100;
+   }
+   .gg{
+      background-color: orangered;
+      padding: 20px;
+      color: white;
+      font-size: 20px;
+      
+
+   }
+   #glo{
+      width: 60%;
+      float: left;
+      font-weight: bolder;
+      margin-top: 20px;
+      padding: 20px;
+
+   }
+   #glo ul li{
+      list-style: none;
+      padding: 30px;
+      border: 1px solid #cccccc;
+      background: #e6e6e6e6;
+      margin-bottom: 20px;
+      font-size: 40px;
+      text-align: justify;
+   }
+   #glo h1{
+      font-size: 60px;
+      font-weight: bolder;
+      text-transform: uppercase;
+   }
+   #glo h1:hover{
+      color: orange;
+   }
+   a{
+      text-decoration: none;
+      color: white;
+   }
+   a:hover{
+      color: orangered;
+
+   }
+   #man p{
+      text-align: justify;
+      font-size: 40px;
+   }
+   .area{
+      width: 430px;
+      padding: 12px;
+      font-weight: bold;
+      font-size: 30px;
+   }
+   @media (min-width: 50%){
+      
+   .header{
+      background-color: green;
+      display: flex;
+      color: white;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px;
+      border-bottom: 3px solid red;
+      position: fixed;
+      right: 0;
+      left: 0;
+      top: 0;
+      flex-direction: column;
+      width: 100%;
+     }
+
+   }
+   @media (max-width: 600px) {
+      .right ul {
+         display: flex;
+         list-style: none;
+         background-color: green;
+         padding: 16px;
+         margin: 15px;
+         width: 250px;
+         
+        }
+   }
