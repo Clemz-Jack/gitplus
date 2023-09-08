@@ -151,6 +151,7 @@ position: relative;
       line-height: normal;
    
       text-align: justify;
+      width: 30%;
    
    }
    .undark{
@@ -159,6 +160,17 @@ position: relative;
       border: 1px solid #cccccc;
       background: #e6e6e6e6;
       padding: 30px;
+      width: 30%;
+   }
+   .today{
+      text-align: justify;
+      width: 40%;
+      background: orange;
+      border: 1px solid #cccccc;
+      padding: 20px;
+      font-size: 30px;
+      font-weight: bold;
+
    }
   
 
@@ -176,6 +188,7 @@ position: relative;
    flex-direction: column;
    justify-content: space-between;
    align-items: center;
+   padding: 70px;
    
    
 }
@@ -399,7 +412,7 @@ position: relative;
 #main aside{
    width: 100%;
    color: black;
-   border: 1px solid black;
+   
    display: flex;
    flex-direction: column;
    padding-right: 20px;
@@ -407,6 +420,8 @@ position: relative;
 }
 
 #main aside p{
-   flex: 1;
+   
+   background: #e6e6e6e6;
+   width: 100%;
 }
 }
