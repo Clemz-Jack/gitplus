@@ -170,6 +170,7 @@ position: relative;
       padding: 20px;
       font-size: 30px;
       font-weight: bold;
+      vertical-align: top;
 
    }
   
@@ -180,6 +181,7 @@ position: relative;
    width: 100%;
    justify-content: space-between;
    align-items: center;
+   vertical-align: top;
 }
 #main aside{
    background: #e6e6e6e6;
