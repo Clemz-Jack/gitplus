@@ -151,7 +151,7 @@ position: relative;
       line-height: normal;
    
       text-align: justify;
-      width: 30%;
+   
    
    }
    .undark{
@@ -160,11 +160,11 @@ position: relative;
       border: 1px solid #cccccc;
       background: #e6e6e6e6;
       padding: 30px;
-      width: 30%;
+      
    }
    .today{
       text-align: justify;
-      width: 40%;
+      
       background: orange;
       border: 1px solid #cccccc;
       padding: 20px;
