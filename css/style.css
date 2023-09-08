@@ -11,7 +11,9 @@
     right: 0;
     left: 0;
     top: 0;
-    width: 100%;
+    
+    flex-direction: row;
+    z-index: 1;
     
    }
 
@@ -41,9 +43,11 @@
 
    }
    .container{
-    width: 80%;
+    width: 100%;
     margin: auto;
     overflow: hidden;
+    
+    
    }
    #showcase{
     background: url(../img/background.jpg) no-repeat;
@@ -56,7 +60,7 @@
    }
    #showcase h1{
     font-size: 60px;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 15px;
 
    }
@@ -78,36 +82,45 @@
     padding: 15px;
     width: 250px;
    }
-   #newsletter{
+   #newsletter  div{
     background: darkslateblue;
     padding: 40px;
     color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
    }
-   #newsletter h1{
-    float: left;
-    font-size: 40px;
 
-   }
-   #newsletter form{
-    float: right;
-    margin-top: 15px;
-   }
+   
+     #newsletter form{
+      padding: 20px;
+      margin-top: 15px;
+     }
    .one{
       width: 470px;
    }
-   #plus{
+   #plus div{
    
-      margin-top: 50px;
+margin-top: 15px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+position: relative;
+
+
 
    }
-   #plus .box{
-      float: left;
+   .box, .abs{
+      position: absolute;
+      display: flex;
+      flex-direction: column;
       text-align: center;
-      padding: 20px;
-      width: 30%;
+      
       
    }
+
+
    .on{
       width: 340px;
    }
@@ -147,30 +160,34 @@
       background: #e6e6e6e6;
       padding: 30px;
    }
-   #col{
-      float: left;
-      width: 60%;
-      margin-top: 15px;
-   }
-   #col h1{
-      font-size: 60px;
-      text-transform: uppercase;
-      font-weight: bold;
-   }
-   #col h1:hover{
-      color: orange;
-   }
-   #man{
-      background-color: black;
-      float: right;
-      margin-left: 14px;
-      color: white;
-      font-size: 25px;
-      width: 35%;
-      margin-top: 50px;
-      padding: 30px;
-      
-   }
+  
+
+#main article{
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   justify-content: space-between;
+   align-items: center;
+}
+#main aside{
+   background: #e6e6e6e6;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   
+   
+}
+ #main aside h3{
+   font-size: 40px;
+   font-weight: bold;
+   text-align: center;
+}
+
+
+
+
    #airtel{
       background-color: black;
       color: white;
@@ -236,6 +253,10 @@
       font-weight: bold;
       font-size: 30px;
    }
+
+   
+      
+   }
    @media (min-width: 50%){
       
    .header{
@@ -260,16 +281,7 @@
    }
    @media ( orientation: portrait ) {
       
-   #plus .box{
-      
-      color: red;
-      display: flex;
-      flex-direction: column;
-      margin-top: 15px;
-      width: 500px;
-      text-align: center;
-    
-   }
+   
 
 
    
@@ -301,4 +313,100 @@
    
       margin-top: 20px;
    }
+   
+   .header{
+      background-color: black;
+      position: fixed;
+      color: white;
+      justify-content: space-between;
+      align-items: center;
+      padding: 30px;
+      border-bottom: 3px solid red;
+      position: fixed;
+      right: 0;
+      left: 0;
+      top: 0;
+      width: 100%;
+      flex-direction: column;
+      
+     }
+     #plus div{
+   
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      
+         }
+
+         
+   #showcase{
+      background: url(../img/background.jpg) no-repeat;
+      text-align: center;
+      min-height: 800px;
+      background-size: cover;
+      background-position: center;
+      color: white;
+      width: 100%;
+  
+     }
+
+     
+   #showcase h1{
+      font-size: 50px;
+      margin-top: 400px;
+      margin-bottom: 10px;
+      color: white;
+      
+  
+     }
+     #showcase p{
+      font-size: 30px;
+      font-weight: bold;
+      margin-top: 100px;
+      margin-bottom: 0;
+      padding: 20px;
+     }
+
+     
+   #newsletter  div{
+      background: orangered;
+      padding: 40px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+  
+     }
+     #newsletter h1{
+      padding-top: 30px;
+     }
+
+
+     
+#main article{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   margin-top: 400px;
+
+   
+}
+
+#main aside{
+   width: 100%;
+   color: black;
+   border: 1px solid black;
+   display: flex;
+   flex-direction: column;
+   padding-right: 20px;
+   
+}
+
+#main aside p{
+   flex: 1;
+}
 }
