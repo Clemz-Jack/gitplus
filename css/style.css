@@ -289,6 +289,7 @@ position: relative;
    .header{
       background-color: green;
       flex-direction: column;
+      width: 100%;
    
      }
 
