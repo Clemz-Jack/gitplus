@@ -272,6 +272,16 @@ position: relative;
    
 @media (max-width: 600px)  {
 
+
+   .box, .abs{
+   
+   
+   
+      text-align: center;
+      font-size: 15px;
+      
+      
+   }
             
    .right{
     
