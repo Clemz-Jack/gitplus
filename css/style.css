@@ -325,6 +325,28 @@ position: relative;
          
         
            }
+
+           
+   #showcase{
+      background: url(../img/background.jpg) no-repeat;
+      text-align: center;
+      min-height: 500px;
+      background-size: cover;
+      background-position: center;
+      color: white;
+  
+     }
+     #showcase h1{
+      font-size: 20px;
+      margin-top: 500px;
+      
+  
+     }
+     #showcase p{
+      font-size: 20px;
+   
+      margin-top: 100px;
+     }
 }
  
  
