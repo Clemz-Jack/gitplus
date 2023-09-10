@@ -317,9 +317,9 @@ position: relative;
 
          #newsletter  div{
             background: purple;
-            padding: 40px;
+            font-size: 17px;
             color: white;
-            display: flex;
+            
             flex-direction: column;
             text-align: center;
          
