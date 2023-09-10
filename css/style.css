@@ -271,18 +271,12 @@ position: relative;
 
    
 @media (max-width: 600px)  {
+   .high{
+      font-size: 30px;
+      color: red;
+     }
 
-
-    .abs{
-   
-   
-   
-      text-align: center;
-      font-size: 15px;
-      
-      
-   }
-            
+        
    .right{
     
     background-color: red;
