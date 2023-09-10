@@ -146,7 +146,7 @@ position: relative;
       background-color: black;
       color: white;
       font-size: 40px;
-      padding: 40px;
+      padding: 42px;
       
       line-height: normal;
    
@@ -270,7 +270,118 @@ position: relative;
    }
 
    
-      
-   
+@media (max-width: 600px) {
 
+   .header{
+      background-color: green;
+      flex-direction: column;
    
+     }
+
+     #plus div{
+   
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      
+         }
+
+         .one{
+            margin: auto;
+         }
+         .on{
+            margin: auto;
+         }
+
+         #newsletter  div{
+            background: purple;
+            padding: 40px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+         
+        
+           }
+}
+ 
+ 
+@media (min-width: 768px) {
+   
+   .header{
+      background-color: purple;
+      flex-direction: column;
+      
+     }
+
+
+     #plus div{
+   
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      
+         }
+
+         .one{
+            margin: auto;
+         }
+
+         .on{
+            margin: auto;
+         }
+
+
+         #newsletter  div{
+            background: gray;
+            padding: 40px;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+         
+        
+           }
+}
+ 
+@media (min-width: 992px) {
+   
+   .header{
+      background-color: pink;
+      flex-direction: column;
+      flex-direction: row;
+      
+     }
+
+
+     #plus div{
+   
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      
+         }
+
+}
+ 
+@media (min-width: 12000px) {
+   
+   .header{
+      background-color: purple;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-direction: row;
+     }
+
+     #plus div{
+   
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      
+         }
+}
