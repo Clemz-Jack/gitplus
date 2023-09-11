@@ -147,10 +147,7 @@ position: relative;
       color: white;
       font-size: 40px;
       padding: 42px;
-      
-      line-height: normal;
-   
-      text-align: justify;
+         t-align: justify;
    
    
    }
@@ -354,11 +351,37 @@ position: relative;
    font-size: 13px;
    flex-direction: column;
    margin-top: 600px;
+}
 
-   
-   
+
+.dark{
+   background-color: black;
+   color: white;
+   font-size: 15px;
+   padding: 15px;
+   text-align: justify;
+
+
+}
+.undark{
+   text-align: justify;
+   font-size: 15px;
+   border: 1px solid #cccccc;
+   background: #e6e6e6e6;
+   padding: 15px;
    
 }
+.today{
+   text-align: justify;
+   background: orange;
+   border: 1px solid #cccccc;
+   padding: 20px;
+   font-size: 15px;
+
+   
+
+}
+
 }
  
  
