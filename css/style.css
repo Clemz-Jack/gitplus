@@ -206,9 +206,9 @@ position: relative;
 
    }
    #glo{
-      width: 60%;
-      float: left;
-      font-weight: bolder;
+      
+      flex-direction: row;
+      display: flex;
       margin-top: 20px;
       padding: 20px;
 
@@ -247,6 +247,18 @@ position: relative;
       padding: 12px;
       font-weight: bold;
       font-size: 30px;
+   }
+
+   #glo form{
+      background: black;
+      width: 500px;
+      padding: 15px;
+   }
+   #glo input{
+      font-weight: bold;
+      font-size: 15px;
+      width: 300px;
+      padding: 15px;
    }
 
    
@@ -378,10 +390,36 @@ position: relative;
    padding: 20px;
    font-size: 15px;
 
-   
+}
+
+.dark:hover{
+background-color: #e6e6e6e6;
+color: black;
+}
+
+#glo{
+      
+   flex-direction: column;
+
+   padding: 20px;
 
 }
 
+#glo ul li{
+
+
+   
+   text-align: justify;
+   font-size: 20px;
+
+}
+#glo h1{
+   font-size: 30px;
+   font-weight: bold;
+   text-transform: uppercase;
+   margin-top: 150px;
+   text-align: center;
+}
 }
  
  
