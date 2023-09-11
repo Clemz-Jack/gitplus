@@ -328,7 +328,7 @@ position: relative;
 
            
    #showcase{
-      background: url(../img/background.jpg) no-repeat;
+      background: url(img/background.jpg);
       text-align: center;
       min-height: 500px;
       background-size: cover;
