@@ -337,8 +337,10 @@ position: relative;
   
      }
      #showcase h1{
-      font-size: 20px;
+      font-size: 30px;
       margin-top: 500px;
+      text-transform: uppercase;
+      font-weight: bold;
       
   
      }
