@@ -274,7 +274,7 @@ position: relative;
 
    #glo form{
       background: #e6e6e6e6;
-      width: 350px;
+      width: 400px;
       padding: 10px;
       margin: auto;
    }
@@ -318,7 +318,7 @@ position: relative;
    .right{
     
     background-color: red;
-    width: 450px;
+    width: 500px;
     
    }                  
    .right ul {
@@ -326,8 +326,10 @@ position: relative;
     list-style: none;
    }
    .right ul li{
-    padding: 20pxpx;
+    padding: 30px;
     margin: 3px;
+    font-size: 17px;
+    text-align: center;
    }
 
    .header{
@@ -359,7 +361,6 @@ position: relative;
             background: purple;
             font-size: 17px;
             color: white;
-            
             flex-direction: column;
             text-align: center;
          
@@ -458,6 +459,16 @@ color: black;
  
  
 @media (min-width: 768px)  and (max-width: 1024px) {
+
+   #newsletter  div{
+      background: purple;
+      font-size: 20px;
+      color: white;
+      flex-direction: column;
+      text-align: center;
+   
+  
+     }
 
    
 #main article{
