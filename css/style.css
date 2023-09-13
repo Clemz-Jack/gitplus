@@ -318,6 +318,7 @@ position: relative;
    .right{
     
     background-color: red;
+    width: 450px;
     
    }                  
    .right ul {
@@ -326,6 +327,7 @@ position: relative;
    }
    .right ul li{
     padding: 20pxpx;
+    margin: 3px;
    }
 
    .header{
